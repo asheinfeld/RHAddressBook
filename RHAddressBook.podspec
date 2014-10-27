@@ -5,7 +5,7 @@
   "summary": "A Cocoa / Objective-C library for interfacing with the iOS AddressBook.",
   "authors": "Richard Heard",
   "source": {
-    "git": "https://github.com/heardrwt/RHAddressBook.git",
+    "git": "https://github.com/asheinfeld/RHAddressBook",
     "tag": "1.1.1"
   },
   "source_files": "RHAddressBook/*.{h,m}",
