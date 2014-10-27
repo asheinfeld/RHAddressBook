@@ -248,7 +248,7 @@ static __strong RHAddressBookSharedServices *_sharedInstance = nil;
                         //see if we have a valid, old entry
                         RHAddressBookGeoResult* old = [self cacheEntryForPersonID:personID addressID:addressID];
                         
-                        if (old && [old isValid]){
+                        if (old){
                             //yes
                             [newCache addObject:old]; // just add it and be done.
                         } else {
